@@ -1,0 +1,489 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6BC678B61A36182800524082 /* Config.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6BC678B51A36182800524082 /* Config.plist */; };
+		6BF0DBD51A346D0700DB8C80 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BF0DBD41A346D0700DB8C80 /* AppDelegate.swift */; };
+		6BF0DBD71A346D0700DB8C80 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BF0DBD61A346D0700DB8C80 /* ViewController.swift */; };
+		6BF0DBDA1A346D0700DB8C80 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BF0DBD81A346D0700DB8C80 /* Main.storyboard */; };
+		6BF0DBDC1A346D0700DB8C80 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BF0DBDB1A346D0700DB8C80 /* Images.xcassets */; };
+		6BF0DBDF1A346D0700DB8C80 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6BF0DBDD1A346D0700DB8C80 /* LaunchScreen.xib */; };
+		6BF0DBEB1A346D0700DB8C80 /* SushiamoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BF0DBEA1A346D0700DB8C80 /* SushiamoTests.swift */; };
+		6BF0DBF61A346D5800DB8C80 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BF0DBF41A346D5800DB8C80 /* Bolts.framework */; };
+		6BF0DBF71A346D5800DB8C80 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BF0DBF51A346D5800DB8C80 /* Parse.framework */; };
+		6BF0DBF91A346D8A00DB8C80 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BF0DBF81A346D8A00DB8C80 /* AudioToolbox.framework */; };
+		6BF0DBFB1A346D9300DB8C80 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BF0DBFA1A346D9300DB8C80 /* CFNetwork.framework */; };
+		6BF0DBFD1A346D9A00DB8C80 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BF0DBFC1A346D9A00DB8C80 /* CoreGraphics.framework */; };
+		6BF0DBFF1A346DA000DB8C80 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BF0DBFE1A346DA000DB8C80 /* CoreLocation.framework */; };
+		6BF0DC011A346DAA00DB8C80 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BF0DC001A346DAA00DB8C80 /* libz.dylib */; };
+		6BF0DC031A346DB100DB8C80 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BF0DC021A346DB100DB8C80 /* MobileCoreServices.framework */; };
+		6BF0DC051A346DBB00DB8C80 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BF0DC041A346DBB00DB8C80 /* QuartzCore.framework */; };
+		6BF0DC071A346DC000DB8C80 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BF0DC061A346DC000DB8C80 /* Security.framework */; };
+		6BF0DC091A346DC500DB8C80 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BF0DC081A346DC500DB8C80 /* StoreKit.framework */; };
+		6BF0DC0B1A346DCD00DB8C80 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BF0DC0A1A346DCD00DB8C80 /* SystemConfiguration.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6BF0DBE51A346D0700DB8C80 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6BF0DBC71A346D0700DB8C80 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6BF0DBCE1A346D0700DB8C80;
+			remoteInfo = Sushiamo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6BC678B51A36182800524082 /* Config.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Config.plist; sourceTree = "<group>"; };
+		6BF0DBCF1A346D0700DB8C80 /* Sushiamo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sushiamo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BF0DBD31A346D0700DB8C80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6BF0DBD41A346D0700DB8C80 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6BF0DBD61A346D0700DB8C80 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6BF0DBD91A346D0700DB8C80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6BF0DBDB1A346D0700DB8C80 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6BF0DBDE1A346D0700DB8C80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		6BF0DBE41A346D0700DB8C80 /* SushiamoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SushiamoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BF0DBE91A346D0700DB8C80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6BF0DBEA1A346D0700DB8C80 /* SushiamoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SushiamoTests.swift; sourceTree = "<group>"; };
+		6BF0DBF41A346D5800DB8C80 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		6BF0DBF51A346D5800DB8C80 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		6BF0DBF81A346D8A00DB8C80 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		6BF0DBFA1A346D9300DB8C80 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		6BF0DBFC1A346D9A00DB8C80 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6BF0DBFE1A346DA000DB8C80 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		6BF0DC001A346DAA00DB8C80 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		6BF0DC021A346DB100DB8C80 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		6BF0DC041A346DBB00DB8C80 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		6BF0DC061A346DC000DB8C80 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		6BF0DC081A346DC500DB8C80 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		6BF0DC0A1A346DCD00DB8C80 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		6BF0DC0C1A346E1400DB8C80 /* Sushiamo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Sushiamo-Bridging-Header.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6BF0DBCC1A346D0700DB8C80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BF0DC0B1A346DCD00DB8C80 /* SystemConfiguration.framework in Frameworks */,
+				6BF0DC091A346DC500DB8C80 /* StoreKit.framework in Frameworks */,
+				6BF0DC071A346DC000DB8C80 /* Security.framework in Frameworks */,
+				6BF0DC051A346DBB00DB8C80 /* QuartzCore.framework in Frameworks */,
+				6BF0DC031A346DB100DB8C80 /* MobileCoreServices.framework in Frameworks */,
+				6BF0DC011A346DAA00DB8C80 /* libz.dylib in Frameworks */,
+				6BF0DBFF1A346DA000DB8C80 /* CoreLocation.framework in Frameworks */,
+				6BF0DBFD1A346D9A00DB8C80 /* CoreGraphics.framework in Frameworks */,
+				6BF0DBFB1A346D9300DB8C80 /* CFNetwork.framework in Frameworks */,
+				6BF0DBF91A346D8A00DB8C80 /* AudioToolbox.framework in Frameworks */,
+				6BF0DBF71A346D5800DB8C80 /* Parse.framework in Frameworks */,
+				6BF0DBF61A346D5800DB8C80 /* Bolts.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BF0DBE11A346D0700DB8C80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6BF0DBC61A346D0700DB8C80 = {
+			isa = PBXGroup;
+			children = (
+				6BC678B51A36182800524082 /* Config.plist */,
+				6BF0DC0A1A346DCD00DB8C80 /* SystemConfiguration.framework */,
+				6BF0DC081A346DC500DB8C80 /* StoreKit.framework */,
+				6BF0DC061A346DC000DB8C80 /* Security.framework */,
+				6BF0DC041A346DBB00DB8C80 /* QuartzCore.framework */,
+				6BF0DC021A346DB100DB8C80 /* MobileCoreServices.framework */,
+				6BF0DC001A346DAA00DB8C80 /* libz.dylib */,
+				6BF0DBFE1A346DA000DB8C80 /* CoreLocation.framework */,
+				6BF0DBFC1A346D9A00DB8C80 /* CoreGraphics.framework */,
+				6BF0DBFA1A346D9300DB8C80 /* CFNetwork.framework */,
+				6BF0DBF81A346D8A00DB8C80 /* AudioToolbox.framework */,
+				6BF0DBD11A346D0700DB8C80 /* Sushiamo */,
+				6BF0DBE71A346D0700DB8C80 /* SushiamoTests */,
+				6BF0DBD01A346D0700DB8C80 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6BF0DBD01A346D0700DB8C80 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6BF0DBCF1A346D0700DB8C80 /* Sushiamo.app */,
+				6BF0DBE41A346D0700DB8C80 /* SushiamoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6BF0DBD11A346D0700DB8C80 /* Sushiamo */ = {
+			isa = PBXGroup;
+			children = (
+				6BF0DBF41A346D5800DB8C80 /* Bolts.framework */,
+				6BF0DBF51A346D5800DB8C80 /* Parse.framework */,
+				6BF0DBD41A346D0700DB8C80 /* AppDelegate.swift */,
+				6BF0DBD61A346D0700DB8C80 /* ViewController.swift */,
+				6BF0DBD81A346D0700DB8C80 /* Main.storyboard */,
+				6BF0DBDB1A346D0700DB8C80 /* Images.xcassets */,
+				6BF0DBDD1A346D0700DB8C80 /* LaunchScreen.xib */,
+				6BF0DBD21A346D0700DB8C80 /* Supporting Files */,
+				6BF0DC0C1A346E1400DB8C80 /* Sushiamo-Bridging-Header.h */,
+			);
+			path = Sushiamo;
+			sourceTree = "<group>";
+		};
+		6BF0DBD21A346D0700DB8C80 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6BF0DBD31A346D0700DB8C80 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6BF0DBE71A346D0700DB8C80 /* SushiamoTests */ = {
+			isa = PBXGroup;
+			children = (
+				6BF0DBEA1A346D0700DB8C80 /* SushiamoTests.swift */,
+				6BF0DBE81A346D0700DB8C80 /* Supporting Files */,
+			);
+			path = SushiamoTests;
+			sourceTree = "<group>";
+		};
+		6BF0DBE81A346D0700DB8C80 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6BF0DBE91A346D0700DB8C80 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6BF0DBCE1A346D0700DB8C80 /* Sushiamo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BF0DBEE1A346D0700DB8C80 /* Build configuration list for PBXNativeTarget "Sushiamo" */;
+			buildPhases = (
+				6BF0DBCB1A346D0700DB8C80 /* Sources */,
+				6BF0DBCC1A346D0700DB8C80 /* Frameworks */,
+				6BF0DBCD1A346D0700DB8C80 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Sushiamo;
+			productName = Sushiamo;
+			productReference = 6BF0DBCF1A346D0700DB8C80 /* Sushiamo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6BF0DBE31A346D0700DB8C80 /* SushiamoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BF0DBF11A346D0700DB8C80 /* Build configuration list for PBXNativeTarget "SushiamoTests" */;
+			buildPhases = (
+				6BF0DBE01A346D0700DB8C80 /* Sources */,
+				6BF0DBE11A346D0700DB8C80 /* Frameworks */,
+				6BF0DBE21A346D0700DB8C80 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6BF0DBE61A346D0700DB8C80 /* PBXTargetDependency */,
+			);
+			name = SushiamoTests;
+			productName = SushiamoTests;
+			productReference = 6BF0DBE41A346D0700DB8C80 /* SushiamoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6BF0DBC71A346D0700DB8C80 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Davide Fucci";
+				TargetAttributes = {
+					6BF0DBCE1A346D0700DB8C80 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					6BF0DBE31A346D0700DB8C80 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 6BF0DBCE1A346D0700DB8C80;
+					};
+				};
+			};
+			buildConfigurationList = 6BF0DBCA1A346D0700DB8C80 /* Build configuration list for PBXProject "Sushiamo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6BF0DBC61A346D0700DB8C80;
+			productRefGroup = 6BF0DBD01A346D0700DB8C80 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6BF0DBCE1A346D0700DB8C80 /* Sushiamo */,
+				6BF0DBE31A346D0700DB8C80 /* SushiamoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6BF0DBCD1A346D0700DB8C80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BC678B61A36182800524082 /* Config.plist in Resources */,
+				6BF0DBDA1A346D0700DB8C80 /* Main.storyboard in Resources */,
+				6BF0DBDF1A346D0700DB8C80 /* LaunchScreen.xib in Resources */,
+				6BF0DBDC1A346D0700DB8C80 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BF0DBE21A346D0700DB8C80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6BF0DBCB1A346D0700DB8C80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BF0DBD71A346D0700DB8C80 /* ViewController.swift in Sources */,
+				6BF0DBD51A346D0700DB8C80 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BF0DBE01A346D0700DB8C80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BF0DBEB1A346D0700DB8C80 /* SushiamoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6BF0DBE61A346D0700DB8C80 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6BF0DBCE1A346D0700DB8C80 /* Sushiamo */;
+			targetProxy = 6BF0DBE51A346D0700DB8C80 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6BF0DBD81A346D0700DB8C80 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6BF0DBD91A346D0700DB8C80 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6BF0DBDD1A346D0700DB8C80 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6BF0DBDE1A346D0700DB8C80 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6BF0DBEC1A346D0700DB8C80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6BF0DBED1A346D0700DB8C80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6BF0DBEF1A346D0700DB8C80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Sushiamo",
+				);
+				INFOPLIST_FILE = Sushiamo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Sushiamo/Sushiamo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6BF0DBF01A346D0700DB8C80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Sushiamo",
+				);
+				INFOPLIST_FILE = Sushiamo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Sushiamo/Sushiamo-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		6BF0DBF21A346D0700DB8C80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SushiamoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sushiamo.app/Sushiamo";
+			};
+			name = Debug;
+		};
+		6BF0DBF31A346D0700DB8C80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SushiamoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sushiamo.app/Sushiamo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6BF0DBCA1A346D0700DB8C80 /* Build configuration list for PBXProject "Sushiamo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BF0DBEC1A346D0700DB8C80 /* Debug */,
+				6BF0DBED1A346D0700DB8C80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BF0DBEE1A346D0700DB8C80 /* Build configuration list for PBXNativeTarget "Sushiamo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BF0DBEF1A346D0700DB8C80 /* Debug */,
+				6BF0DBF01A346D0700DB8C80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BF0DBF11A346D0700DB8C80 /* Build configuration list for PBXNativeTarget "SushiamoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BF0DBF21A346D0700DB8C80 /* Debug */,
+				6BF0DBF31A346D0700DB8C80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6BF0DBC71A346D0700DB8C80 /* Project object */;
+}
