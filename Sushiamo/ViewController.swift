@@ -10,6 +10,7 @@ import UIKit
 import Parse
 class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     var tableData:NSMutableArray = NSMutableArray()
+    let kCellIdentifier: String = "RestaurantCell"
     @IBOutlet weak var restaurantsTableView: UITableView!
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -45,8 +46,8 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         return self.tableData.count
     }
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell: UITableViewCell = UITableViewCell(style: UITableViewCellStyle.Subtitle, reuseIdentifier: "MyTestCell")
         
+        let cell: UITableViewCell = tableView.dequeueReusableCellWithIdentifier(kCellIdentifier) as UITableViewCell
         let cellDataParse:PFObject = self.tableData.objectAtIndex(indexPath.row) as PFObject
         
         cell.textLabel?.text = cellDataParse.objectForKey("name") as? String

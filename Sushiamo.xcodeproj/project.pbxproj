@@ -26,6 +26,7 @@
 		6BF0DC071A346DC000DB8C80 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BF0DC061A346DC000DB8C80 /* Security.framework */; };
 		6BF0DC091A346DC500DB8C80 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BF0DC081A346DC500DB8C80 /* StoreKit.framework */; };
 		6BF0DC0B1A346DCD00DB8C80 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BF0DC0A1A346DCD00DB8C80 /* SystemConfiguration.framework */; };
+		C2266BED1A50636600378359 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2266BEB1A50636600378359 /* MenuViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,7 @@
 		6BF0DC081A346DC500DB8C80 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		6BF0DC0A1A346DCD00DB8C80 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		6BF0DC0C1A346E1400DB8C80 /* Sushiamo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Sushiamo-Bridging-Header.h"; sourceTree = "<group>"; };
+		C2266BEB1A50636600378359 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 		6BF0DBC61A346D0700DB8C80 = {
 			isa = PBXGroup;
 			children = (
+				C2266BEB1A50636600378359 /* MenuViewController.swift */,
 				6BC678B51A36182800524082 /* Config.plist */,
 				6BF0DC0A1A346DCD00DB8C80 /* SystemConfiguration.framework */,
 				6BF0DC081A346DC500DB8C80 /* StoreKit.framework */,
@@ -267,6 +270,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6BF0DBD71A346D0700DB8C80 /* ViewController.swift in Sources */,
+				C2266BED1A50636600378359 /* MenuViewController.swift in Sources */,
 				6BF0DBD51A346D0700DB8C80 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
