@@ -55,6 +55,13 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         
         return cell
     }
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        var menuViewController: MenuViewController = segue.destinationViewController as MenuViewController
+        var menu = self.tableData[0]["menu"] as [String]
+        println(menu)
+        menuViewController.menu = menu as NSArray
+    }
 
 }
 

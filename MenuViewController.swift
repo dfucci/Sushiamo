@@ -8,8 +8,9 @@
 
 import UIKit
 
-class MenuViewController: UIViewController {
-    var menu: [String]?
+class MenuViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
+    var menu:NSArray = NSArray()
+    @IBOutlet weak var menuTableView: UITableView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -22,6 +23,18 @@ class MenuViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        println(self.menu.count)
+       return self.menu.count
+        
+    }
+    
+    func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
+       
+        let cell: UITableViewCell = UITableViewCell(style: UITableViewCellStyle.Default, reuseIdentifier: "menuCell")
+        cell.textLabel?.text = self.menu[indexPath.row] as? String
+        return cell
+    }
 
     /*
     // MARK: - Navigation
