@@ -24,7 +24,6 @@ class MenuViewController: UIViewController, UITableViewDelegate, UITableViewData
     }
     
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        println(self.menu.count)
        return self.menu.count
         
     }

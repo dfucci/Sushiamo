@@ -89,6 +89,7 @@
                         <viewControllerLayoutGuide type="bottom" id="Ab5-sn-KoP"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8hL-nU-RGB">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="HQm-14-5ht">
