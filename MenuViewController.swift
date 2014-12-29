@@ -9,7 +9,7 @@
 import UIKit
 
 class MenuViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
-    var menu:NSArray = NSArray()
+    var menu = [String: Int]()
     @IBOutlet weak var menuTableView: UITableView!
     
     override func viewDidLoad() {
@@ -30,8 +30,9 @@ class MenuViewController: UIViewController, UITableViewDelegate, UITableViewData
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
        
-        let cell: UITableViewCell = UITableViewCell(style: UITableViewCellStyle.Default, reuseIdentifier: "menuCell")
-        cell.textLabel?.text = self.menu[indexPath.row] as? String
+        let cell: UITableViewCell = UITableViewCell(style: UITableViewCellStyle.Subtitle, reuseIdentifier: "menuCell")
+        cell.textLabel?.text = self.menu.keys.array[indexPath.row]
+        cell.detailTextLabel?.text = String(self.menu.values.array[indexPath.row]) + "€"
         return cell
     }
 

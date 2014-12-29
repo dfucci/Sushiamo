@@ -65,6 +65,7 @@
 		6BF0DC0A1A346DCD00DB8C80 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		6BF0DC0C1A346E1400DB8C80 /* Sushiamo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Sushiamo-Bridging-Header.h"; sourceTree = "<group>"; };
 		C2266BEB1A50636600378359 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		C2EB8F4D1A51ED0A00BF7D60 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				C2266BEB1A50636600378359 /* MenuViewController.swift */,
+				C2EB8F4D1A51ED0A00BF7D60 /* MyPlayground.playground */,
 				6BC678B51A36182800524082 /* Config.plist */,
 				6BF0DC0A1A346DCD00DB8C80 /* SystemConfiguration.framework */,
 				6BF0DC081A346DC500DB8C80 /* StoreKit.framework */,
