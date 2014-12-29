@@ -59,7 +59,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         var menuViewController: MenuViewController = segue.destinationViewController as MenuViewController
         var index = restaurantsTableView!.indexPathForSelectedRow()!.row
-        var menu = self.tableData[index]["menu2"] as? Dictionary<String, Int>
+        var menu = self.tableData[index]["menu"] as? Dictionary<String, Int>
         menuViewController.menu = menu!
 
     }
