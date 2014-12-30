@@ -8,7 +8,7 @@
 
 import UIKit
 import Parse
-class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
+class RestaurantsViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     var tableData:NSMutableArray = NSMutableArray()
     let kCellIdentifier: String = "RestaurantCell"
     @IBOutlet weak var restaurantsTableView: UITableView!
