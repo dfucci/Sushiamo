@@ -8,33 +8,16 @@
 
 import UIKit
 import Parse
-class RestaurantsViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
+class RestaurantsViewController: UIViewController, UITableViewDelegate, UITableViewDataSource, APIControllerProtocol {
+    @IBOutlet weak var restaurantsTableView: UITableView!
     var tableData:NSMutableArray = NSMutableArray()
     let kCellIdentifier: String = "RestaurantCell"
-    @IBOutlet weak var restaurantsTableView: UITableView!
+    var api = APIController()
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.api.delegate = self
         // Do any additional setup after loading the view, typically from a nib.
-        var query = PFQuery(className:"Restaurants")
-        query.findObjectsInBackgroundWithBlock {
-            (objects: [AnyObject]!, error: NSError!) -> Void in
-            if error == nil {
-                // The find succeeded.
-                println("Successfully retrieved \(objects.count) restaurant.")
-                // Do something with the found objects
-                for object:PFObject in objects as [PFObject] {
-                    let name = object["name"] as String
-                    println(name)
-                    self.tableData.addObject(object)
-                    
-                }
-            } else {
-                // Log details of the failure
-                println(error.userInfo!)
-            }
-            self.restaurantsTableView.reloadData()
-        }
-        
+        api.getRestaurantList()
     }
 
     override func didReceiveMemoryWarning() {
@@ -62,6 +45,14 @@ class RestaurantsViewController: UIViewController, UITableViewDelegate, UITableV
         var menu = self.tableData[index]["menu"] as? Dictionary<String, Int>
         menuViewController.menu = menu!
 
+    }
+    
+    func didReceiveAPIResults(results: PFObject) {
+      //  var resultsArr: NSArray = results["results"] as NSArray
+        dispatch_async(dispatch_get_main_queue(), {
+            self.tableData.addObject(results)
+            self.restaurantsTableView!.reloadData()
+        })
     }
 
 }
